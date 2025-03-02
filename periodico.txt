@@ -1,5 +1,5 @@
 class program {
-    program () {
+    program () { 
         // Ejercicio 2 : Cada mañana Karel se levanta de la cama 
         // y tiene que recoger el periódico, representado por un 
         // zumbador, que está en el porche de la casa. Escribe un
