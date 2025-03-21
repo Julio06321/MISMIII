@@ -1,0 +1,22 @@
+class program {
+	void cuadroDeZumbadores() {
+    
+     iterate(4) {
+     	move();
+        putbeeper();
+        move();
+        putbeeper();
+        turnleft();
+        turnleft();
+        turnleft();
+    
+     }//iterate
+    }//void
+    
+    program () {
+       
+       cuadroDeZumbadores();
+       
+        turnoff();
+    }
+}
