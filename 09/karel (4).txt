@@ -1,0 +1,42 @@
+class program {
+void turnright(){
+	turnleft();
+    turnleft();
+    turnleft();
+}
+
+void llena(){
+	while(frontIsClear && rightIsClear){
+    	while(frontIsClear){
+        putbeeper();
+        move();
+        }
+        putbeeper();
+        turnright();
+        move();
+        turnright();
+        	while(frontIsClear){
+            putbeeper();
+            move();
+            }
+            putbeeper();
+            turnleft();
+            move();
+            turnleft();
+            
+    }
+putbeeper();
+move();
+putbeeper();
+move();
+putbeeper();
+move();
+putbeeper();
+}
+    program () {
+        // TODO poner codigo aqui
+        llena();
+        putbeeper();
+        turnoff();
+    }
+}
